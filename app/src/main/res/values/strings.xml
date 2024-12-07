@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RetrofitForecaster</string>
+    <string name="weather_icon_desc">Иконка погоды</string>
 </resources>

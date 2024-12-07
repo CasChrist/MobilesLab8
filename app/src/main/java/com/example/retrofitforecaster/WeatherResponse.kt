@@ -1,19 +1,19 @@
 package com.example.retrofitforecaster
 
 data class WeatherResponse(
-    val list: List<WeatherItem>
+    val list: List<WeatherData>
 )
 
-data class WeatherItem(
-    val dt_txt: String,
-    val main: MainInfo,
-    val weather: List<WeatherDescription>
+data class WeatherData(
+    val main: Main,
+    val weather: List<Weather>,
+    val dt: Long
 )
 
-data class MainInfo(
+data class Main(
     val temp: Double
 )
 
-data class WeatherDescription(
-    val main: String
+data class Weather(
+    val icon: String
 )

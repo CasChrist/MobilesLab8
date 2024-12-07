@@ -42,4 +42,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx.v260)
     implementation(libs.androidx.appcompat)
     implementation(libs.material.v190)
+    implementation(libs.glide)
+    implementation(libs.compiler)
+    implementation(libs.picasso.v271828)
 }
